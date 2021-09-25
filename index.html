@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Say Items </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1> How many letter "A" is here? </h1>
+		<p id="show"></p>
+		<button class="number" onclick="say(1)">1</button>
+		<button class="number" onclick="say(2)">2</button>
+		<button class="number" onclick="say(3)">3</button>
+		<button class="number reset" onclick="resetScore()"> Reset Score </button><br>
+		<div style="margin-bottom: 50px;" >
+			<h3 class="inSameDiv" id="text" >Your Score is :</h3>
+			<h3 class="inSameDiv" id="scoreShow">0</h3>
+			<div>
+				<p class="inSameDiv" id="isRight"></p>
+				<p id="combo"></p>
+		  </div>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
